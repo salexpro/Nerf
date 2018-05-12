@@ -1,0 +1,21 @@
+.footer{
+    &_brands{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        justify-content: space-between;
+        max-width: 375px;
+        margin: auto;
+        margin-bottom: 35px;
+        a{
+            margin: 5px auto;
+        }
+    }
+    &_content{
+        padding: 0 40px 20px;
+        font-size: 14px;
+        p{
+            line-height: normal;
+        }
+    }
+}

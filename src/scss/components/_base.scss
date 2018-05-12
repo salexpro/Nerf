@@ -1,0 +1,65 @@
+html, body{
+    -webkit-overflow-scrolling: touch
+}
+
+// Styled scrollbar
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: $primary-color;
+    border-radius: 5px;
+}
+
+// Drop autofill
+:-webkit-autofill,
+:-webkit-autofill:hover,
+:-webkit-autofill:focus,
+:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px $white inset;
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: $black;
+}
+
+
+.wrap {
+    overflow: hidden;
+    min-width: 320px;
+    max-width: map-get($breakpoints, medium);
+    margin: auto;
+    background-image: url(../img/bg.jpg);
+    background-size: 100% auto;
+}
+
+[type='text'],
+[type='password'],
+[type='date'],
+[type='datetime'],
+[type='datetime-local'],
+[type='month'],
+[type='week'],
+[type='email'],
+[type='number'],
+[type='search'],
+[type='tel'],
+[type='time'],
+[type='url'],
+[type='color'],
+textarea,
+select,
+button {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+select{
+    font-weight: 400;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAABLUlEQVQoU3WQu0oDURCGv9FILCIooo1iZRGzLm4R0BewipWljZfCd/AJ9CEEY6mlYC+IYCFhJR7JCoqllffKxB2Z3U2IiU5zZv6Z+c7MyJznVwUtAIvANJkJuqbIrkBOYaqtAx/AiMWKHIo5GWS9q8jcT6CJcCzKqsJElje9IMiOc/W9BGBW8uZDYAGwNwBugRegDOTTH7kSKAucOnezYloHEATB6FezdZZC9BxkCbQGMgMMA2PAk8JDfihXCcPw9RfAggyyD1IU9F2Ve4Rl4BnhTZTHVqu5HUWR3SGxzgRtwff9Yhzrpa2g4CnUBCYFOYL4xDlnK3asD5Dco1SaRQYMMp5VXsTfg1uNxvVdz6H7J2gXeJ6/oehBOqZsOlev9jb/uUJ3kUEs/q/Zcj/o0GMr2XozlgAAAABJRU5ErkJggg==);
+    background-size: 16px;
+    background-position: right -5px center;
+    color: #585e5e;
+}

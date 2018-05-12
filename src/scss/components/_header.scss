@@ -1,0 +1,67 @@
+.head{
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    &_logo{
+        position: absolute;
+        top: 20px;
+        right: 7px;
+        width: 140px;
+    }
+    &_boy{
+        padding-bottom: 117vw;
+        @include breakpoint(medium){
+            padding-bottom: 748px;
+        }
+        &_boy{
+            height: 58vw;
+            position: absolute;
+            top: 5px;
+            left: 0;
+            display: none;
+            overflow: hidden;
+            @include breakpoint(medium){
+                height: 370px;
+            }
+            &--1{
+                display: block;
+            }
+            img{
+                height: 75vw;
+                max-height: 480px;
+            }
+        }
+        &_sign{
+            position: absolute;
+            top: 51vw;
+            display: none;
+            left: -10%;
+            max-width: 704px;
+            text-align: center;
+            @include breakpoint(medium) {
+                top: 326px;
+            }
+            &--1{
+                display: block;
+            }
+        }
+    }
+    &_share{
+        display: inline-flex;
+        align-items: center;
+        font-size: 28px;
+        font-weight: 400;
+        img{
+            margin-left: 5px;
+        }
+    }
+    &_games{
+        margin-top: -40px;
+        z-index: -1;
+        position: relative;
+        img{
+            width: 100%;
+        }
+    }
+}

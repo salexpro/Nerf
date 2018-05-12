@@ -1,0 +1,59 @@
+.chooser{
+    &::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 0px;
+        padding-bottom: 38%;
+        background-image: url(../img/crack.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    &_city{
+        padding: 0 45px;
+        font-weight: 400;
+        max-width: 320px;
+        margin: auto;
+        &_label{
+            padding-left: 9px;
+        }
+    }
+    &_select{
+        background-color: rgba($white, .8);
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background-image: url(../img/buttons/select.png);
+        position: relative;
+        z-index: 1;
+        &::after {
+            content: '';
+            position: absolute;
+            top: calc(50% - 41px);
+            left: calc(50% - 160px);
+            width: 320px;
+            height: 82px;
+            z-index: -1;
+            background-image: url(../img/buttons/select_shadow.png);
+        }
+        select{
+            margin: 0;
+        }
+    }
+    &_game{
+        text-align: center;
+    }
+    &_descr{
+        padding: 0 40px;
+        margin-bottom: 20px;
+        &_date{
+            color: #c0e77a;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+    }
+    &_bottom{
+        padding: 0 40px;
+        text-align: center;
+    }
+}
