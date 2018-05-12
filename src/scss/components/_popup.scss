@@ -3,6 +3,9 @@
     background: url(../img/bg_popup.png);
     background-position: top center;
     padding-top: 90px;
+    @include breakpoint(small only){
+        top: 0 !important;
+    }
 }
 
 .close-button{

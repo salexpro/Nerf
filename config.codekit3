@@ -199,6 +199,20 @@
 		"oAP": "\/build\/fonts\/GinzaNarrow\/GinzaNarrow-Light.woff2",
 		"oF": 0
 		},
+	"\/src\/fonts\/GinzaNarrow\/GinzaNarrow-Medium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/GinzaNarrow\/GinzaNarrow-Medium.woff",
+		"oF": 0
+		},
+	"\/src\/fonts\/GinzaNarrow\/GinzaNarrow-Medium.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/GinzaNarrow\/GinzaNarrow-Medium.woff2",
+		"oF": 0
+		},
 	"\/src\/fonts\/Schist\/SchistBlack.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -855,7 +869,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 547814738
+	"lastBuiltDate": 547838413
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
